@@ -1,0 +1,20 @@
+
+addthem: 
+
+		   t08 = a + b
+		   ret t01
+
+main: 
+
+		   t00 = 8
+		   x = t00
+		   t01 = 4
+		   a = t01
+		   t02 = 3
+		   b = t02
+		   param a
+		   param b
+		   call addthem: , 2
+		   
+
+		   

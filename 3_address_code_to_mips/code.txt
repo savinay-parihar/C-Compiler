@@ -1,0 +1,51 @@
+t0 = 2.300 
+a = t0 
+t1 = 5 
+b = t1 
+operate :
+t2 = 2.300 
+d = t2 
+t3 = (double) x 
+t4 = t3 * d 
+y = t4 
+t5 = (double) c 
+t6 = y + t5 
+d = t6 
+ret d 
+
+main :
+param b 
+param a 
+t7 = call operate,2 
+dec = t7 
+t8 = 0 
+i = t8 
+t9 = 10 
+if i < t9 goto 28 
+goto 34 
+t10 = 5 
+t11 = i + t10 
+i = t11 
+goto 21 
+t12 = 5.200 
+t13 = (double) b 
+t14 = t12 * t13 
+t15 = t14 + dec 
+a = t15 
+goto 24 
+if b >= i goto 36 
+goto 38 
+t16 = b / i 
+b = t16 
+t17 = (double) b 
+if t17 < a goto 41 
+goto 43 
+if i < c goto 46 
+goto 43 
+t18 = (double) i 
+if t18 >= a goto 46 
+goto 50 
+t19 = 2 
+t20 = (double) t19 
+t21 = a * t20 
+a = t21 

@@ -1,0 +1,46 @@
+main:
+t0 = 4 
+a = t0 
+t1 = 4 
+b = t1 
+t2 = 7 
+c = t2 
+t3 = a + b 
+c = t3 
+t4 = 5 
+b = t4 
+t5 = a - e 
+d = t5 
+t6 = b * e 
+d = t6 
+t7 = a / b 
+c = t7 
+if a == b goto l20: 
+goto l24: 
+t8 = 4 
+t9 = b - t8 
+a = t9 
+goto l27: 
+t10 = 2 
+t11 = b - t10 
+a = t11 
+if a != b goto l29: 
+goto l33: 
+t12 = 1 
+t13 = a + t12 
+a = t13 
+goto l26: 
+t14 = 0 
+i = t14 
+if i < a goto l41: 
+goto l45: 
+t15 = i 
+t16 = i + 1 
+i = t16 
+goto l35: 
+t17 = 1 
+t18 = c + t17 
+c = t18 
+goto l36: 
+t19 = 6 
+c = t19 

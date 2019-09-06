@@ -1,0 +1,21 @@
+main:
+t0 = 4 
+a = t0 
+t1 = 6 
+b = t1 
+t2 = 0 
+i = t2 
+t3 = 0 
+i = t3 
+t4 = 3 
+if i < t4 goto l17: 
+goto l20: 
+t5 = i 
+t6 = i + 1 
+i = t6 
+goto l10: 
+t7 = a + b 
+a = t7 
+goto l11: 
+t8 = 6 
+i = t8 

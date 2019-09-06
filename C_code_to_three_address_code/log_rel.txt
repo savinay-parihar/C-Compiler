@@ -1,0 +1,18 @@
+main:
+t0 = 2 
+a = t0 
+t1 = 4 
+b = t1 
+t2 = 8.200 
+c = t2 
+if b < a goto l10: 
+goto l17: 
+t3 = 2 
+if a > t3 goto l13: 
+goto l17: 
+t4 = 3 
+t5 = b * t4 
+b = t5 
+goto l19: 
+t6 = 1 
+b = t6 

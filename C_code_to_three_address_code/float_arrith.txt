@@ -1,0 +1,15 @@
+main:
+t0 = 4 
+a = t0 
+t1 = 4 
+b = t1 
+t2 = 7 
+c = t2 
+t3 = 3.200 
+f = t3 
+t4 = (float) a 
+t5 = f * t4 
+d = t5 
+t6 = (float) b 
+t7 = f - t6 
+e = t7 
